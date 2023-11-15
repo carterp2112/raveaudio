@@ -1,0 +1,153 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  background-color: rgb(250, 207, 128);
+}
+
+.wrap {
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+  background-color: rgb(255, 166, 0);
+  color: white;
+  z-index: 1000;
+  position: sticky;
+}
+
+nav h1 {
+  padding-left: 20px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+  padding-right: 15px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.jtron {
+  text-align: center;
+  border: solid white 10px;
+  border-radius: 10%;
+  width: 15rem;
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px; 
+  margin: 20px;
+}
+
+.jtron p {
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.jtron img {
+  width: 150px;
+}
+
+.jtron:hover {
+  box-shadow: 5px 5px 6px rgb(255, 166, 0);
+}
+
+.aboutus {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 75%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.aboutus h1 {
+  text-decoration: underline dotted;
+}
+
+footer {
+  background-color: rgb(255, 166, 0);
+  padding: 20px;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+}
+
+a {
+  text-decoration: none ;
+}
+
+a:active {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: rgb(250, 207, 128);
+}
+
+.recorder {
+  text-align: center;
+  padding: 100px;
+  margin-top: 50px;
+  background-color: white;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+.recorder section button {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 100%;
+  background-color: rgb(255, 166, 0);
+}
+
+.recorder button {
+  background-color: rgb(255, 166, 0); 
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contact-card {
+  text-align: center;
+  background-color: white;
+  width: fit-content;
+  padding: 50px;
+  border-radius: 30px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-card img {
+  width: 200px;
+}
+
+.contact-card:hover {
+  box-shadow: 5px 5px 6px rgb(255, 166, 0);
+}
+
+.contact-card:active {
+  color: black;
+}
+
+.contact-card:visited {
+  color: black;
+}
+
+.contact {
+  width: fit-content  ;
+}
